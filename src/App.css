@@ -2,7 +2,7 @@
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 	grid-column-gap: 2rem;
-	grid-row-gap: 2rem;
+	grid-row-gap: 5rem;
 }
 
 img {
@@ -15,11 +15,12 @@ img {
 
 h2 {
 	font-size: 1.2rem;
-	height: 80px;
+	height: 75px;
 }
 
 .filterContainer button {
 	margin-right: 2rem;
+	margin-bottom: 2rem;
 	min-width: 5rem;
 	padding: 0.5rem 1rem;
 	border: none;
