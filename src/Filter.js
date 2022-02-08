@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { motion } from "framer-motion";
 
 export default function Filter({
 	setActiveGenre,
@@ -20,7 +21,7 @@ export default function Filter({
 	}, [activeGenre]);
 
 	return (
-		<div className="filterContainer">
+		<motion.div className="filterContainer">
 			<button
 				className={activeGenre === 0 ? "active" : ""}
 				onClick={() => setActiveGenre(0)}
@@ -75,6 +76,6 @@ export default function Filter({
 			>
 				Science Fiction
 			</button>
-		</div>
+		</motion.div>
 	);
 }
